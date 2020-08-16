@@ -1,0 +1,33 @@
+//Colors
+
+$color-main: #333;
+$color-primary-main: #ddd;
+$color-primary-light: #777;
+$color-primary-dark: #111;
+
+$color-secondary-lighter: #a89df4;
+$color-secondary-light: #2f17d0;
+$color-secondary-dark: #1e0f84;
+
+$color-red-light: #c60000;
+$color-red-dark: #600000;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $color-primary-main;
+  color: $color-main;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 300;
+  box-sizing: border-box;
+}
