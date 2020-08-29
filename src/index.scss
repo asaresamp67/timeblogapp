@@ -1,5 +1,7 @@
 //Colors
 
+$color-white: #fff;
+
 $color-main: #333;
 $color-primary-main: #ddd;
 $color-primary-light: #777;
@@ -19,6 +21,7 @@ $color-red-dark: #600000;
 }
 
 html {
+  box-sizing: border-box;
   font-size: 62.5%;
 }
 
@@ -29,5 +32,4 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   font-weight: 300;
-  box-sizing: border-box;
 }

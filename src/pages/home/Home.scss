@@ -1,0 +1,18 @@
+@import '../../index.scss';
+
+.blog-container {
+  display: flex;
+  width: 120rem;
+  margin: 2rem auto 0 auto;
+
+  &_list {
+    background-color: $color-white;
+    flex: 1;
+    margin-right: 4rem;
+  }
+
+  &_sidebar {
+    background-color: $color-white;
+    width: 30%;
+  }
+}
