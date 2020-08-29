@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Post.scss'
-import data from '../../data/blog'
+//import data from '../../data/blog'
 import { TimeContext } from '../../context/TimeContext'
 
 export default class Post extends Component {
@@ -24,16 +24,18 @@ export default class Post extends Component {
 
     return (
       <div className='post'>
-        <h1>{blogTitle}</h1>
-        <p className='author'>
-          {postedOn}, by <span>{author}</span>
-        </p>
-        <div className='item_img'>
-          <img
-            src={blogImage}
-            alt='author-img'
-            className='item-img_container'
-          />
+        <div className='post_heading'>
+          <h1>{blogTitle}</h1>
+          <p className='post_author'>
+            Posted on: {postedOn}, by <span>{author}</span>
+          </p>
+          <div className='post_image'>
+            <img
+              src={blogImage}
+              alt='author-img'
+              className='item-img_container'
+            />
+          </div>
         </div>
         <p>{blogText}</p>
       </div>
