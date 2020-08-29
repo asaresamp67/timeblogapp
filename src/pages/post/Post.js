@@ -37,7 +37,7 @@ export default class Post extends Component {
             />
           </div>
         </div>
-        <p>{blogText}</p>
+        <p className='post_text'>{blogText}</p>
       </div>
     )
   }
