@@ -16,7 +16,9 @@ export default class Home extends Component {
             return <BlogList key={blog.id} blog={blog} />
           })}
         </ul>
-        <div className='blog-container_sidebar'>hello</div>
+        <div className='blog-container_sidebar'>
+          Hello, I am going to be the sidebar but not done. See you
+        </div>
       </div>
     )
   }
