@@ -10,18 +10,18 @@ const Navbar = () => {
         <nav className='header-nav'>
           <ul className='nav-list'>
             <li className='nav-list_item'>
+              <Link to='/' className='nav-list_items'>
+                Home
+              </Link>
+            </li>
+            <li className='nav-list_item'>
               <Link to='/about' className='nav-list_items'>
                 About Me
               </Link>
             </li>
             <li className='nav-list_item'>
-              <Link to='/' className='nav-list_items'>
-                Post
-              </Link>
-            </li>
-            <li className='nav-list_item'>
               <Link to='/contact' className='nav-list_items'>
-                Contact Us
+                Contact
               </Link>
             </li>
           </ul>
